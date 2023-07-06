@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "59ed009d2c4a5a6b78f75a25679b6417ac040dcf",
+        "version" : "509.0.0-swift-DEVELOPMENT-SNAPSHOT-2023-07-04-a"
+      }
+    },
+    {
+      "identity" : "syntaxsparrow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CheekyGhost-Labs/SyntaxSparrow.git",
+      "state" : {
+        "revision" : "b8a927c3febd73b80cbc3bb3f6d8b386d7dd49f2",
+        "version" : "1.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}
