@@ -6,7 +6,7 @@ import SyntaxSparrow
 class TypeDemo {
 
     static func isTupleWithClosure<T>(_ type: T.Type) -> Bool {
-        // NOTE: I need to expose the init with type syntax in SyntaxSparrow in next update, until then am wrapping in a var decl
+        // NOTE: I need expose EntityType init with type syntax in SyntaxSparrow next update, until then am wrapping in var decl
         print(type.self)
         let sourceBuffer = "var target: \(type)"
         let variables = SyntaxTree.declarations(of: Variable.self, inSource: sourceBuffer)
